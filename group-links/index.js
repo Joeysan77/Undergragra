@@ -197,7 +197,6 @@ function open_search() {
         ixx.remove();
         ix.style.width = "auto";
         ix.style.opacity = "1";
-        search.value = ""
         sebdiv.dataset.toggle = "off"; // reset toggle here ✅
       }, 300);
     }

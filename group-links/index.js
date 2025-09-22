@@ -183,7 +183,7 @@ function open_search() {
       sebdiv.style.opacity = "1";
       sebdiv.style.background = "rgba(0,0,0,0.8)";
       ix.style.width = "0";
-      ix.style.opacity = "1";
+      ix.style.opacity = "0";
       second.appendChild(ixx);
     }, 0);
 

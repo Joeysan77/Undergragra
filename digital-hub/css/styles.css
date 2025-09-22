@@ -14,9 +14,7 @@ html {
 }
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration { display: none; }
 body {
-    color:;
     transition: 0.3s ! important;
-    background: ;
     
 }
 * {
@@ -125,7 +123,6 @@ a {
     margin: 0;
     padding: 0;
     background:#f0f1f3;
-    width:;
     box-sizing: border-box;
     padding-top: 120px;
     padding-bottom: 150px;
@@ -169,7 +166,6 @@ a {
     color: #08662f  ;
     font-weight: 700;
     margin: 0;
-    font-family: ;
 }
 .second {
     width: 100%;
@@ -194,7 +190,6 @@ a {
     padding: 5px;
     display: flex;
     box-sizing: border-box;
-    min-width: ;
     width: 65%;
     max-height: 40px;
     mix-blend-mode: difference;
@@ -254,7 +249,6 @@ a {
   z-index: 0;
   pointer-events: none;
   border-radius: 50%;
-  display:;
   color-scheme: light;
   forced-color-adjust: none;
   -webkit-forced-colors-adjust: none;
@@ -306,7 +300,6 @@ a {
     width: 90%;
     margin-top: 25%;
     z-index: 1;
-    background: ;
     position: relative;
 }
 #dhubsp {
@@ -320,7 +313,6 @@ a {
     color: rgb(255,255,255,0.5);
 }
 #cat {
-    color: ;
     position: relative;
 }
 #cat p {
@@ -418,7 +410,6 @@ button {
     margin-left: .5%;
     box-sizing: border-box;
     align-items:  center;
-    background: ;
     padding: 20px;
     margin-top: 15px;
     border-radius: 15px;
@@ -445,7 +436,6 @@ button {
     width: 100%;
     border-radius:15px 15px 0px 0px;
     flex-direction: column;
-    box-shadow: ;
 }
 #sh {
     display: flex;
@@ -473,7 +463,6 @@ button {
     overflow: auto;
     padding: 10px;
     padding-right: 0;
-    black-space: ;
     overflow-x: scroll; 
     overflow-y: hidden;
     scroll-behavior: smooth;
@@ -490,7 +479,6 @@ button {
     min-width: 100%;
     margin-left:10px ;
     margin-top: 10px;
-    box-shadow: ;
     padding: 15px;
     border-radius: 15px;
     position: relative;
@@ -563,7 +551,6 @@ button {
     margin: 0;
     padding: 0;
     margin-left: 0px;
-    font-size: ;
 }
 #freep {
     position: absolute;
@@ -575,7 +562,6 @@ button {
     padding: 3px;
     border-radius: 5px;
     font-size: 8px;
-    transform: ;
 }
 #cart {
     position: fixed;
@@ -762,7 +748,6 @@ button {
     color: black;
     border-radius: 15px;
     position: relative;
-    height: ;
     box-shadow: 0px 2px 2px rgb(0,0,0,0.2);
 }
 #payi {

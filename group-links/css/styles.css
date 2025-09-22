@@ -99,9 +99,6 @@ body , div{
 * {
   box-sizing: border-box !important;
 }
-b {
-  
-}
 #dark {
     height:100%;
     width: 100%;
@@ -182,8 +179,7 @@ a {
     margin-right: 10px;
     color: #08662f  ;
     font-weight: 700;
-    margin: 0;
-    font-family: ;
+    margin:0;
 }
 
 a {
@@ -197,7 +193,6 @@ a {
     padding: 5px;
     display: flex;
     box-sizing: border-box;
-    min-width: ;
     width: 65%;
     max-height: 40px;
     background: rgb(255,255,255,.3);
@@ -306,7 +301,6 @@ a {
   z-index: 0;
   pointer-events: none;
   border-radius: 50%;
-  display:;
   color-scheme: light;
   forced-color-adjust: none;
   -webkit-forced-colors-adjust: none;
@@ -344,7 +338,6 @@ a {
     width: 90%;
     margin-top: 25%;
     z-index: 1;
-    background: ;
     position: relative;
 }
 #dhubsp {
@@ -486,7 +479,7 @@ a {
   border-radius: 15px;
   padding: 10px;
   justify-content: center;
-  align-items: ;
+  align-items:center;
   width: 100%;
   margin-top: 15px;
   gap: 16px;

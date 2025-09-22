@@ -502,8 +502,8 @@ a {
   padding-block: 0;
 }
 
-#fx {
-    
+.ix {
+    z-index: 99;
 }
 
 

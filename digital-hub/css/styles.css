@@ -531,7 +531,7 @@ button {
     font-size:15px ;
     background: #0583F2;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
     justify-content: space-around;
     display: flex;

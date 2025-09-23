@@ -484,7 +484,7 @@ button {
     border: 1px solid #C3C6D1;
     border-width: 0px 0px 2px 0px;
     background: white;
-    
+    justify-content: space-between;
 }
 .free_cards:hover {
     scale:1.025;
@@ -511,8 +511,8 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex: 1;
-    padding: auto;
+    flex: 2;
+    padding: 10px;
 }
 .p1 {
     font-size: 20px;
@@ -527,17 +527,17 @@ button {
     
 }
 .get {
-    padding: 10px 10px;
+    padding: 10px 15px;
     font-size:15px ;
-    background: #0865FE;
+    background: #0583F2;
     border: none;
     border-radius: 15px;
     color: white;
     justify-content: space-around;
     display: flex;
     align-items: center;
-    width: 110%;
-    min-width: 110%;
+    margin: 0;
+    gap: 10px;
 }
 
 .get p {
@@ -549,7 +549,6 @@ button {
     display: inline;
     margin: 0;
     padding: 0;
-    margin-left: 0px;
 }
 #freep {
     position: absolute;

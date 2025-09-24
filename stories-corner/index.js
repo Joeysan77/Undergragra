@@ -96,7 +96,7 @@ storys.forEach((story) => {
             stp.style.background = "#f0f1f3";
             stp.style.left = "0";
         }, 100);
-
+        history.pushState({ storyOpen: true }, "")
         fetch("stories/" + page + ".json")
             .then(res => res.json())
             .then(data => {
@@ -134,7 +134,20 @@ stc.addEventListener("click", () => {
 });
 
 
-
+window.addEventListener("popstate", (event) => {
+  if (stp.style.display === "block") {
+    stp.style.opacity = "0";
+    stp.style.background = "transparent";
+    stp.style.left = "100%";
+    ep = 1;
+    storyData = null;
+    setTimeout(() => {
+        stp.style.display = "none";
+    }, 400);
+    // prevent actually leaving the page
+    history.pushState(null, "")
+  }
+})
 
 
 

@@ -24,7 +24,7 @@ body {
 .line {
     padding: 1px;
     border-radius: 1px;
-    background: rgb(0,0,9,.4);
+    background: rgb(0,0,0,.1);
     width: 90%;
     margin: 30px 0px 30px 5%;
 }

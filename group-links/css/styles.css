@@ -10,6 +10,13 @@ body {
     font-family: FedExSans;
     transition: 0.5s;
 }
+.line {
+    padding: 1px;
+    border-radius: 1px;
+    background: rgb(0,0,0,.1);
+    width: 90%;
+    margin: 30px 0px 30px 5%;
+}
 * {
     box-sizing: border-box ! important;
 }
@@ -365,26 +372,53 @@ a {
 }
 
 #info {
-    width: 90%;
+    width: 100%;
     color: black;
-    margin-left: 5%;
+    margin-left: 0;
     box-sizing: border-box;
     align-items:  center;
     background: #fff;
     padding: 20px;
-    margin-top: 15px;
+    margin-top: 25px;
     border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1) , 0px -3px 20px rgb(5,131,242,.1);
+    border: .5px solid #E2E8F0;
 }
 #info p {
     margin: 0;
     font-size: 15px;
     
 }
+.opcta {
+    background: rgb(5,131,242,.1);
+    color: #0583F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgb(0,0,0,.1);
+    border-radius: 15px;
+    margin: 20px 0 25px 5%;
+    width: 90%;
+}
+.opctap {
+    font-size: 20px !important;
+    font-weight: 500;
+    margin:0;
+    padding: 0;
+}
+.opcta i {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
 .pp1 {
     font-size: 24px;
     margin-top: 20px;
-    margin-bottom: 5px;
-    font-weight: 500;
+    margin-bottom:25px;
+    font-weight: 600;
     color: black;
 }
 
@@ -394,7 +428,7 @@ a {
   width: 90%;
   margin: 5%;
   border-radius: 15px;
-  box-shadow: 0px 0px 2px rgb(0,0,0,0.2);
+  box-shadow: 0px 2px 2px rgb(0,0,0,0.2);
   display: flex;
   margin-top: 25px;
   flex-direction: column;
@@ -406,7 +440,7 @@ a {
   width: 90%;
   margin: 5%;
   border-radius: 15px;
-  box-shadow: 0px 0px 2px rgb(0,0,0,0.2);
+  box-shadow: 0px 2px 2px rgb(0,0,0,0.2);
   display: flex;
   margin-top: 5px;
   flex-direction: column;
@@ -477,7 +511,7 @@ a {
   color: white;
   background: rgb(0,134,47);
   border-radius: 10px;
-  padding: 15px;
+  padding: 10px;
   justify-content: center;
   align-items:center;
   width: 100%;
@@ -493,6 +527,7 @@ a {
   font-size: 17px;
   margin: 0;
   padding-block: 0;
+  font-weight: 500;
 }
 
 .ixx {

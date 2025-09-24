@@ -185,6 +185,7 @@ function open_search() {
       ix.style.width = "0";
       ix.style.opacity = "0";
       second.appendChild(ixx);
+      search.focus();
     }, 0);
 
     // Close logic

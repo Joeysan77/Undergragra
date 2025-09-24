@@ -17,6 +17,13 @@ body {
     transition: 0.3s ! important;
     
 }
+.line {
+    padding: 1px;
+    border-radius: 1px;
+    background: rgb(0,0,0,.1);
+    width: 90%;
+    margin: 30px 0px 30px 5%;
+}
 * {
   box-sizing: border-box;
 }
@@ -363,8 +370,10 @@ a {
     align-items:  center;
     background: #fff;
     padding: 20px;
-    margin-top: 15px;
+    margin-top: 25px;
     border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1) , 0px -3px 20px rgb(5,131,242,.1);
+    border: .5px solid #E2E8F0;
 }
 #info p {
     margin: 0;
@@ -481,10 +490,9 @@ button {
     padding: 15px;
     border-radius: 15px;
     position: relative;
-    border: 1px solid #C3C6D1;
-    border-width: 0px 0px 2px 0px;
     background: white;
     justify-content: space-between;
+    box-shadow: 0px 2px 5px rgb(0,0,0,.1);
 }
 .free_cards:hover {
     scale:1.025;
@@ -746,7 +754,8 @@ button {
     color: black;
     border-radius: 15px;
     position: relative;
-    box-shadow: 0px 2px 2px rgb(0,0,0,0.2);
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1) , 0px -3px 20px rgb(5,131,242,.1);
+    border: .5px solid #E2E8F0;
 }
 #payi {
     font-size: 20px;
@@ -784,18 +793,19 @@ button {
 }
 .sett p {
     text-align: center;
-    color: rgb(0,0,0,0.7);
+    color: rgb(0,0,0,0.5);
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
-    
+    font-display: 15px;
 }
 .stbtn {
     padding: 10px ;
-    font-size: 15px;
+    font-size: 17px;
     background: #00862f;
     border: none;
     border-radius: 10px;
     color: white;
     margin-top: 10px;
+    font-weight: 500;
 }

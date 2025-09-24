@@ -26,7 +26,7 @@ body {
 .line {
     padding: 1px;
     border-radius: 1px;
-    background: rgb(0,0,9,.4);
+    background: rgb(0,0,0,.1);
     width: 90%;
     margin: 30px 0px 30px 5%;
 }
@@ -373,15 +373,18 @@ a {
 .vibe {
     width: 100%;
     margin-left: 0;
-    margin-top: 15px;
+    margin-top: 25px;
     border-radius: 25px;
     margin-bottom: 25px;
     box-sizing: border-box;
     padding: 10px;
+    background: white;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1) , 0px -3px 20px rgb(5,131,242,.1);
+    border: .5px solid #E2E8F0;
 }
 .vibep1 {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 10px 0px;
 }
 .vibep2 {
@@ -625,13 +628,14 @@ a {
     justify-content: space-between;
     margin-left: 5%;
     align-items: center;
+    gap: 10px;
 }
 #navigbtn {
     display: flex;
     justify-content: center;
-    gap:15px;
+    gap:10px;
     background: #06882f;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 10px;
     font-size: 17px;
     color: white;
@@ -657,9 +661,9 @@ a {
 .prev {
     display: flex;
     justify-content: center;
-    gap:15px;
+    gap:10px;
     background: #06882f;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 10px;
     font-size: 17px;
     color: white;
@@ -680,24 +684,21 @@ a {
 .episo {
     display: flex;
     justify-content: center;
-    gap:15px;
     background: transparent;
-    border-radius: 15px;
-    padding: 7px;
+    padding: 0;
     font-size: 17px;
     color: #06882f;
     align-items: center;
-    border: 1.5px solid #06882f;
+    gap: 7.5px;
 }
 .episo p {
-    margin: 0;
-    padding: 0;
+    padding: 10px;
     font-weight: 500;
-}
-.episo i {
-    margin: 0;
-    font-size: 20px;
-    padding: 0;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 35px;
+    background: rgb(0,134,47,.1);
+    box-shadow: 0px 2px 2px rgb(0,0,0,0.1);
 }
 .epno_div {
     display: flex;

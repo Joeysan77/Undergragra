@@ -449,12 +449,17 @@ a {
   backdrop-filter:blur(20px);
   background: rgb(255,255,255,.3);
 }
+#fx #ffx .flexbox:hover , #sibiv #ffx .flexbox:hover {
+    scale: 1.02;
+    box-shadow: 0px 0px 10px rgb(0,134,47,.1);
+}
 
 .flex {
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
+
 .flex img {
   height: 80px;
   max-height: 80px;
@@ -486,7 +491,7 @@ a {
     color: black;
 }
 .flexpid {
-    color: rgb(0,0,0,.7);
+    color: rgb(0,0,0,.5);
     margin: 10px;
     text-align: center;
 }
@@ -516,15 +521,20 @@ a {
   align-items:center;
   width: 100%;
   margin-top: 15px;
-  gap: 16px;
+  gap: 15px;
+  box-shadow: 0px 2px 2px rgb(0,0,0,.1);
+}
+.link:hover {
+  box-shadow: 0px 2px 5px rgb(0,134,47,.1);
+  transform: translateY(-3px);
 }
 .link i {
-  font-size: 20px;
+  font-size: 20px !important;
   margin: 0px 5px;
   padding: 0;
 }
 .link p {
-  font-size: 17px;
+  font-size: 17px !important;
   margin: 0;
   padding-block: 0;
   font-weight: 500;
